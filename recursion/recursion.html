@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursion</title>
+    <link rel="stylesheet" href="recursion.css">
+    <!-- <script src="recursion.js"></script> -->
+    <script src="/recursion/recursion.js"></script>
+</head>
+
+<body>
+    <header>
+        <span id="home"><a href="../main page/main_page.html">Home</a></span>
+    </header>
+    <main>
+        <div class="assignment-area">
+            <h3>Fibonacci</h3>
+            <input id="fibo-value" type="number" placeholder="top number">
+            <span id="fibo-result"></span>
+        </div>
+        <hr>
+        <div class="assignment-area">
+            <h3>Sierpinski triangle</h3>
+            <div id="sliders">
+                <div id="slider">
+                    <label for="size-range">Size</label>
+                    <input id="size-range" type="range" min="0" max="300" value="0">
+                    <div id="size-range-output"></div>
+                </div>
+                <div id="slider">
+                    <label for="amount-range">Amount</label>
+                    <input id="amount-range" type="range" min="0" max="7" value="0">
+                    <div id="amount-range-output"></div>
+                </div>
+            </div>
+            <canvas id="output-canvas" width="400" height="400"></canvas>
+        </div>
+    </main>
+</body>
+
+</html>
